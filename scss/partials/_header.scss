@@ -1,0 +1,39 @@
+header {
+    height: var(--space-xxl);
+    display: flex;
+    justify-content: center;
+    background-color: var(--primary);
+
+    .navbar{
+        margin: 0 auto;
+        width: 100vw;
+        max-width: 1600px;
+        
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        ul{
+            list-style: none;
+            display: flex;
+            li{
+                a{
+                    margin: 0 0.8rem 0 0.8rem;
+                    padding: 0.5rem;
+
+                    text-decoration: none;
+                    font-weight: 700;
+                    color: var(--grey);
+                    font-size: var(--text-lg);
+
+                    transition: 0.2s ease-in-out;
+
+                    &:hover{
+                        color: var(--accent);
+                        border-bottom: 0.2em solid var(--accent);
+                    }
+                }
+            }
+        }
+    }
+}

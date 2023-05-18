@@ -1,0 +1,12 @@
+footer {
+    height: var(--space-xl);
+    width: 100%;
+    background-color: var(--primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    p{
+        font-size: var(--text-sm);
+    }
+}

@@ -1,0 +1,149 @@
+/* NORMALIZE */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--secondary);
+  color: var(--grey);
+  min-height: 1vh;
+}
+
+/* VARIABLES*/
+:root {
+  /*Pallette*/
+  --primary:#FBF5F3;
+  --secondary:#202020;
+  --grey:#545C52;
+  --accent:#ED2327;
+  /* Font Sizes */
+  --text-xxl: 4.7em;
+  --text-xl: 3.5em;
+  --text-xl2: 3.1em;
+  --text-lg: 1.9em;
+  --text-sm: 1.6em;
+  --text-xs: 1.3em;
+  /* Spacings */
+  --space-xxl: 12rem;
+  --space-xl: 8rem;
+  --space-lg: 5rem;
+  --space-md: 3.2rem;
+  --space-sm: 1.6rem;
+  --space-xs: 0.8rem;
+}
+
+header {
+  height: var(--space-xxl);
+  display: flex;
+  justify-content: center;
+  background-color: var(--primary);
+}
+header .navbar {
+  margin: 0 auto;
+  width: 100vw;
+  max-width: 1600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .navbar ul {
+  list-style: none;
+  display: flex;
+}
+header .navbar ul li a {
+  margin: 0 0.8rem 0 0.8rem;
+  padding: 0.5rem;
+  text-decoration: none;
+  font-weight: 700;
+  color: var(--grey);
+  font-size: var(--text-lg);
+  transition: 0.2s ease-in-out;
+}
+header .navbar ul li a:hover {
+  color: var(--accent);
+  border-bottom: 0.2em solid var(--accent);
+}
+
+footer {
+  height: var(--space-xl);
+  width: 100%;
+  background-color: var(--primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer p {
+  font-size: var(--text-sm);
+}
+
+#banner {
+  height: 34.5rem;
+  background-image: url(../../resources/home41-removebg-preview.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
+#banner2 {
+  height: 34.5rem;
+  background-image: url(../../resources/12.jpg);
+  background-position: center;
+}
+
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+.container .box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 34.5rem;
+  background-color: var(--primary);
+  padding: var(--space-xl);
+}
+.container .box .box_title {
+  display: flex;
+  flex-direction: column;
+  padding: 2.5em;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  border-right: 0.2em solid var(--accent);
+}
+.container .box .box_title h1 {
+  color: var(--accent);
+  font-size: var(--text-xl);
+}
+.container .box .box_title p {
+  font-size: var(--text-sm);
+}
+.container .box .box_text {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-size: var(--text-xs);
+  padding: 2.5em;
+}
+.container .bg-color--secondary {
+  background-color: var(--secondary);
+}
+.container .cont-3 {
+  color: var(--accent);
+  font-size: var(--text-xl);
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  text-align: center;
+}
+.container .cont-3 p {
+  color: var(--primary);
+}
+
+/*# sourceMappingURL=index.css.map */
