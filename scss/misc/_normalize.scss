@@ -15,3 +15,28 @@ body {
     color: var(--grey);
     min-height: 1vh;
 }
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 0.7em;
+    // border-radius: 50%;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    display: none;
+    // bord 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+      border-radius: 15pt;
+      background: var(--primary); 
+      overflow-y: hidden;
+    }
+    
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+      background: var(--accent); 
+  }

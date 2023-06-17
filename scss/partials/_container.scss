@@ -1,57 +1,71 @@
 .container {
-    max-width: 1500px;
-    margin: 0 auto;
+  max-width: 1500px;
+  margin: 0 auto;
 
-    .box {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        min-height: 34.5rem;
-        background-color: var(--primary);
-        padding: var(--space-xl);
+  .box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 34.5rem;
+    background-color: var(--primary);
+    padding: var(--space-xl);
 
-        .box_title{
+    .box_title {
+      display: flex;
+      flex-direction: column;
+      padding: 2.5em;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      border-right: 0.2em solid var(--accent);
 
-
-            display: flex;
-            flex-direction: column;
-            padding: 2.5em;
-            justify-content: center;
-            text-align: center;
-            align-items: center;
-            border-right: 0.2em solid var(--accent);
-        
-            h1{
-                color: var(--accent);
-                font-size: var(--text-xl);
-            }
-            p{
-                font-size: var(--text-sm);
-            }
-        }
-        
-        .box_text{
-            display: flex;
-            justify-content: center;
-            text-align: center;
-            align-items: center;
-            font-size: var(--text-xs);
-            padding: 2.5em;
-        }
-        
-    }
-
-    .bg-color--secondary {
-        background-color: var(--secondary);
-    }
-
-    .cont-3 {
+      h1 {
         color: var(--accent);
         font-size: var(--text-xl);
-        grid-template-columns: 1fr 1fr 1fr;
-        align-items: center;
-        text-align: center;
-        p{
-            color: var(--primary);
-        }
+      }
+
+      h2 {
+        color: var(--accent);
+        font-size: var(--text-lg);
+        // text-transform: uppercase;
+      }
+
+      p {
+        font-size: var(--text-sm);
+      }
     }
+
+    .box_text {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      font-size: var(--text-xs);
+      padding: 2.5em;
+    }
+  }
+
+  .bg-color--secondary {
+    background-color: var(--secondary);
+    font-size: var(--text-xs);
+    a {
+      text-decoration: none;
+      color: var(--primary);
+      transition: 0.2s ease-in-out;
+      &:hover {
+        color: var(--accent);
+      }
+    }
+  }
+
+  .cont-3 {
+    color: var(--accent);
+    font-size: var(--text-xl);
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    text-align: center;
+    p {
+      color: var(--primary);
+    }
+  }
+ 
 }

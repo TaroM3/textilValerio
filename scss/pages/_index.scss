@@ -8,6 +8,9 @@
 #banner2 {
     height: 34.5rem;
     background-image: url(../../resources/12.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    // background-size: cover;
     background-position: center;
 }
 

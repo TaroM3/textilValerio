@@ -1,0 +1,44 @@
+fibras 
+Fabricación de fibras poliester para rellenos y telas no tejidas producidas para distintas aplicaciones y colores.
+
+confeccion
+Telas fabricadas a partir del agujado de fibras sintéticas, en diferentes gramajes y medidas para distintos mercados
+
+articulos tecnicos 
+Telas fabricadas a partir del agujado de fibras sintéticas, en diferentes gramajes y medidas para distintos mercados.
+Talabarteria
+Industria del colchón
+Geotextiles
+Industria automotriz
+Filtrantes
+
+
+limpieza
+Paños de limpieza fabricados con la más moderna tecnología, a partir de la combinación de fibras de origen vegetal y sintéticas en una gran variedad de gramajes, medidas y colores.
+Multiuso
+Pisos
+Rollos
+Mopas
+
+
+blancos
+Acolchados, edredones, frazadas y cobertores fabricados en una gran diversidad de diseños, medidas y colores.
+Acolchados
+Cobertores
+Frazadas
+
+
+guatas 
+Fabricada a partir de fibras sintéticas, mediante procesos de Thermo-Bonding y Chemical-Bonding, en una amplia gama de gramajes y medidas.
+Confección de prendas de abrigo
+Confección de acolchados
+Industria del colchón
+Matelasse
+Filtros
+Aislación
+Tapicería
+
+
+
+REACT PROPS ESLINT
+"react/prop-types": "off"
